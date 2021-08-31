@@ -1,0 +1,23 @@
+{
+  "name": "bbs-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thr10/bbs-web-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thr10/bbs-web-server/issues"
+  },
+  "homepage": "https://github.com/Thr10/bbs-web-server#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.1.1"
+  }
+}
