@@ -7,14 +7,18 @@ var router = new Router();
 router.get('/testGet', async (ctx) => {
     ctx.body = {
         code: 200,
-        data: 'get is ok'
+        data: {
+            message: 'get is ok!'
+        }
     }
 })
 
 router.post('/testPost', async (ctx) => {
     ctx.body = {
         code: 200,
-        data: 'post is ok!'
+        data: {
+            message: 'post is ok!'
+        }
     }
 })
 
